@@ -2,6 +2,7 @@
 #include <unistd.h>
 
 /**
+<<<<<<< HEAD
  * main - Entry point
  *
  * Return: Always 0 (Success)
