@@ -1,19 +1,18 @@
 #include "main.h"
 
 /**
- * print_most_numbers - print numbers showing 0 to 9 except some
- * Return: Always 0
+ * print_line - print straight line
+ *@n: integer value
+ * Return: 0
+ *
  */
-void print_most_numbers(void)
+void print_line(int n)
 {
-	int ch;
+	int t;
 
-	for (ch = 48; ch < 58; ch++)
+	for (t = 0; t < n; t++)
 	{
-		if (ch != 50 && ch != 52)
-		{
-			_putchar(ch);
-		}
+		_putchar(95);
 	}
 	_putchar('\n');
 }
