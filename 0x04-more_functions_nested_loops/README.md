@@ -1,15 +1,2 @@
-New Readme
-B
-B
-B
-B
-A
-A
-A
-A
-B
-iiiiii
-A
-B
-A
+This is the readme file for more functions, more nested loops.
 
