@@ -1,20 +1,22 @@
 #include "main.h"
 
 /**
- * _memset - used to fill a block of memory with a value
- * @s: string length
- * @b: character to be used
- * @n: unsigned integer
- * Return: Always 0
- *
+ * _strchr - locate character in a string
+ * @s: char array string
+ * @c: char to locate
+ * Return: NULL if char not found, or pointer to @c
  */
-char *_memset(char *s, char b, unsigned int n)
-{
-	unsigned int i;
 
-	for (i = 0; i < n; i++)
+char *_strchr(char *s, char c)
+{
+	while (*s != '\0')
 	{
-		s[i] = b;
+		if (*s == c)
+			return (s);
+		else if (*(s + 1) == c)
+			return (s + 1);
+		s++;
 	}
-	return (s);
+
+	return (s + 1);
 }
