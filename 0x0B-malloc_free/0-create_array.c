@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * create_array - create an array of chars, and initialize it with a specified char
+ * create_array - create an array of chars, and init it
  * @size: size of the array
  * @c: specific char
  * Return: char pointer to malloc created memory address or NULL if error
