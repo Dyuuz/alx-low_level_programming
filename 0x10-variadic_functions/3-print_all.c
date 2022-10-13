@@ -70,11 +70,11 @@ void print_string(va_list arg)
 
 	printf("%s", str);
 }
-OB
-OB/**
+
+/**
  * print_all - Prints anything, followed by a new line.
-OB * @format: A string of characters representing the argument types.
-OB * @...: A variable number of arguments to be printed.
+ * @format: A string of characters representing the argument types.
+ * @...: A variable number of arguments to be printed.
  *
  * Description: Any argument not of type char, int, float,
  *              or char * is ignored.
